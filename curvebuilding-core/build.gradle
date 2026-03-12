@@ -13,6 +13,7 @@ repositories {
 dependencies {
     compileOnly("com.sk89q.worldedit:worldedit-bukkit:7.3.17") {
         exclude group: 'com.google.guava', module: 'guava'
+        exclude group: 'com.google.code.gson', module: 'gson'
     }
     implementation 'org.yaml:snakeyaml:2.2'
 }
